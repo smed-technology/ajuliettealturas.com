@@ -13,8 +13,8 @@
     }
 
     .logo {
-      width: 90px;
-    
+      width: 150px;
+      height: 100px;
     }
 
     .info {
@@ -44,6 +44,8 @@
     background-color: #fee600;
     padding: 40px;
     font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden; /* para evitar scroll horizontal si se desborda */
   }
 
 .info-general .title1,
@@ -75,10 +77,12 @@
 }
 
 .contac button {
+  width: 200px;
+  height: 50px;
   padding: 10px 20px;
   font-weight: bold;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -86,17 +90,17 @@
 }
 
 .contac button:hover {
-  background-color: #ddd;
+  background-color: #f10505f6;
 }
 
-.img-1 {
-  display: flexbox;
-  width: 50%;
-  text-align: right;
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
 }
 
-.picture1 {
-  width: 100%;
-  max-width: 350px;
-  height: auto;
+.text-content {
+  flex: 1;
 }
+
