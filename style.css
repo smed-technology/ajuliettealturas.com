@@ -1,0 +1,101 @@
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #fee600;
+      
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      background-color: black;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      width: 90px;
+    
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: white;
+    }
+
+    .title {
+      font-size: 14px;
+      display: flex;
+      justify-content: center;
+      color: white;
+    }
+
+  .info-general{
+    display: block;
+    justify-content:space-between;
+    align-items:center;
+    background-color: #fee600;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+  }
+
+.info-general .title1,
+.info-general .sub-tittle,
+.info-general .parrafo1,
+.info-general .sub-tittle1,
+.info-general .contac {
+  max-width: 50%;
+}
+
+.title-phrase {
+  font-size: 32px;
+  font-weight: 900;
+  color: #000;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.presentation {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+
+.parrafo1 p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contac button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contac button:hover {
+  background-color: #ddd;
+}
+
+.img-1 {
+  width: 50%;
+  text-align: right;
+}
+
+.picture1 {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+}
