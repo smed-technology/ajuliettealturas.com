@@ -5,16 +5,18 @@
       
     }
 
+
     .navbar {
       display: flex;
-      align-items: center;
+      justify-items: flex-start;
       background-color: black;
       padding: 10px 20px;
     }
 
     .logo {
-      width: 150px;
-      height: 100px;
+      width: 160px;
+      height:180px;
+      margin: 0;
     }
 
     .info {
@@ -24,14 +26,14 @@
     }
 
     .name {
-      font-size: 20px;
+      font-size: 30px;
       font-weight: bold;
       letter-spacing: 1px;
       color: white;
     }
 
     .title {
-      font-size: 14px;
+      font-size: 20px;
       display: flex;
       justify-content: center;
       color: white;
@@ -57,23 +59,24 @@
 }
 
 .title-phrase {
-  font-size: 32px;
+  font-size: 55px;
   font-weight: 900;
   color: #000;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   line-height: 1.2;
 }
 
 .presentation {
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 
 .parrafo1 p {
-  font-size: 16px;
-  margin-bottom: 10px;
+  width: 100%;
+  font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .contac button {
@@ -104,3 +107,7 @@
   flex: 1;
 }
 
+.picture1 {
+  width: 500px;
+  height: 750px;
+}
