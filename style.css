@@ -1,8 +1,14 @@
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: 0;
+    }
+    
     body {
       margin: 0;
       font-family: 'Georgia', serif;
       background-color: #fee600;
-      
     }
 
 
@@ -80,10 +86,13 @@
 }
 
 .contac button {
-  width: 200px;
-  height: 50px;
+  width: 300px;
+  height: 100px;
   padding: 10px 20px;
+  margin-top: 30px;
+  margin-left: 250px;
   font-weight: bold;
+  font-size: 30px;
   background-color: black;
   color: white;
   border: none;
@@ -93,7 +102,7 @@
 }
 
 .contac button:hover {
-  background-color: #f10505f6;
+  background-color:  #4b5563;
 }
 
 .content-wrapper {
@@ -110,4 +119,6 @@
 .picture1 {
   width: 500px;
   height: 750px;
+  mask-image: linear-gradient(rgb(0, 0, 0) 80%, transparent);
 }
+
