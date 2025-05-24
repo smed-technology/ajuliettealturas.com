@@ -28,9 +28,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
-  /* padding: 1rem; */
   border-radius: 1rem;
   width: 100%;
 }
@@ -139,7 +138,7 @@ body {
 .services {
   background-color: #000;
   padding: 3rem 1rem;
-  text-align: center;
+  text-align: r;
 }
 
 .tittle2 {
@@ -173,8 +172,9 @@ body {
 .card {
   background-color: #FFD700;
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 1.2rem;
   width: 250px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -192,4 +192,75 @@ body {
   border: 8px solid white;
   object-fit: cover;
   margin-bottom: 1rem;
+}
+
+/* informacion de las cartas de la segunda seccion */
+.info_card{
+  font-family: Arial, sans-serif;;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.938);
+  color: white;
+  border-radius: 1rem;
+  width: 110%;
+  padding: 5%;
+  height: 50%;
+}
+
+
+
+
+
+.requisitos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe600; 
+  padding: 2.5rem; 
+  gap: 2rem;
+  flex-wrap: wrap; 
+}
+
+.contenido {
+  background-color: #e6e6e6;
+  padding: 2.5rem; 
+  border-radius: 1.875rem;
+  max-width: 30%; 
+  flex: 1 1 300px;
+}
+
+.contenido h2 {
+  font-size: 3rem; 
+  font-weight: bold;
+  margin-bottom: 1.25rem; 
+}
+
+.contenido ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  font-size: 1.125rem; 
+}
+
+.contenido ul li {
+  margin-bottom: 0.625rem;
+}
+
+.contenido ul li span {
+  font-weight: normal;
+  font-size: 1rem; 
+}
+
+.imagen {
+  flex: 1 1 300px;
+  max-width: 45%;
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 2.5rem;
+  border-bottom-right-radius: 2.5rem;
+  object-fit: cover;
 }
