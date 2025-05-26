@@ -227,12 +227,12 @@ body {
   background-color: #e6e6e6;
   padding: 2.5rem; 
   border-radius: 1.875rem;
-  max-width: 30%; 
+  max-width: 45%; 
   flex: 1 1 300px;
 }
 
 .contenido h2 {
-  font-size: 3rem; 
+  font-size: 5rem; 
   font-weight: bold;
   margin-bottom: 1.25rem; 
 }
@@ -264,3 +264,143 @@ body {
   border-bottom-right-radius: 2.5rem;
   object-fit: cover;
 }
+
+/* Carrusel*/
+
+.brand-carousel {
+  background-color: aliceblue;
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.carousel-container {
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-container h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.carousel {
+  display: flex;
+  animation: scroll 10s linear infinite;
+  width: 110%;
+}
+
+.carousel-item {
+  flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item img {
+  width: 200px;
+  height: auto;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.185));
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#contacto {
+  background-color: #ffe600;
+  padding: 40px 20px;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.contacto-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contacto-imagen img {
+  width: 300px;
+  max-width: 100%;
+  margin-right: 40px;
+}
+
+.contacto-info {
+  max-width: 500px;
+}
+
+.contacto-info h2 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contacto-info p {
+  font-size: 2rem;
+  margin: 8px 0;
+}
+
+.contacto-info a {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Botón flotante de WhatsApp */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.whatsapp-btn img {
+  width: 200px;
+  height: 200px;
+}
+
+.footer-creative {
+  background-color: #fdfd96; /* Amarillo pastel o tu color base */
+  color: #111;
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+  font-family: sans-serif;
+}
+
+.footer-phrase {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-social a img {
+  width: 32px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.footer-social a:hover img {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
