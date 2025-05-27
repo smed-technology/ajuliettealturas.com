@@ -10,7 +10,6 @@ body {
   background-color: #fee600;
 }
 
-
 .navbar {
   display: flex;
   justify-items: flex-start;
@@ -98,20 +97,22 @@ body {
   font-size: 20px;
 }
 
-.contac a {
+.contac {
+  margin: 40px 0 0 150px;
   width: 300px;
   height: 100px;
-  padding: 10px 20px;
-  margin-top: 30px;
-  margin-left: 150px;
-  font-weight: bold;
-  font-size: 30px;
+}
+
+.contac a {
   background-color: black;
   color: white;
-  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 30px;
   border-radius: 8px;
   cursor: pointer;
   transition: background 0.3s ease;
+  text-decoration: none;
 }
 
 .contac button:hover {
@@ -370,12 +371,12 @@ body {
 }
 
 .whatsapp-btn img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
 }
-
+/* 6e2b00 */
 .footer-creative {
-  background-color: #fdfb96ea; /* Amarillo pastel o tu color base */
+  background-color: #d98313; /* terracora mas claro*/
   color: #111;
   text-align: center;
   padding: 2rem 1rem 1rem;
