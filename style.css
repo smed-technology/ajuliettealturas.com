@@ -98,7 +98,7 @@ body {
   font-size: 20px;
 }
 
-.contac button {
+.contac a {
   width: 300px;
   height: 100px;
   padding: 10px 20px;
@@ -375,7 +375,7 @@ body {
 }
 
 .footer-creative {
-  background-color: #fdfd96; /* Amarillo pastel o tu color base */
+  background-color: #fdfb96ea; /* Amarillo pastel o tu color base */
   color: #111;
   text-align: center;
   padding: 2rem 1rem 1rem;
