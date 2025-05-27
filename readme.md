@@ -44,20 +44,37 @@ Por mutuo acuerdo, SMED Technology se reserva el derecho de incluir este proyect
 
 ---
 
+## Desarrolladores
+
+Este proyecto fue desarrollado por:
+
+- **Diego Fernando Castelblanco Jiménez**  
+  GitHub: [DiegoWhite99](https://github.com/DiegoWhite99)
+
+- **Juan Sebastián Ospina Chávez**  
+  GitHub: [juanospina0409](https://github.com/juanospina0409)
+
+- **Cristian Stive Roncacio Villamil**  
+  GitHub: [Crisstiv](https://github.com/Crisstiv)
+
+Miembros del equipo de desarrollo **SMED DEV**, responsables de la implementación técnica del sitio.
+
+---
+
 ## Soporte Legal - Colombia
 
 El presente proyecto se rige conforme a la normativa colombiana vigente en materia de derechos de autor, propiedad intelectual y servicios digitales, específicamente:
 
-- Ley 23 de 1982: Régimen general de derechos de autor.
-- Decisión Andina 351 de 1993: Régimen común sobre derechos de autor para países miembros de la Comunidad Andina.
-- Ley 527 de 1999: Legislación sobre mensajes de datos, comercio electrónico y firmas digitales.
+- Ley 23 de 1982: Régimen general de derechos de autor.  
+- Decisión Andina 351 de 1993: Régimen común sobre derechos de autor para países miembros de la Comunidad Andina.  
+- Ley 527 de 1999: Legislación sobre mensajes de datos, comercio electrónico y firmas digitales.  
 - Código de Comercio Colombiano: Régimen de prestación de servicios y relaciones contractuales.
 
 ---
 
 ## Contacto Técnico
 
-SMED DEV - División de Desarrollo  
-SMED Technology  
+**SMED DEV** - División de Desarrollo  
+**SMED Technology**  
 Correo electrónico: contacto@smedtechnology.com  
-Ciudad: Bogotá, Colombia  
+Ciudad: Bogotá, Colombia
