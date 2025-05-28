@@ -169,6 +169,9 @@ body {
   justify-content: center;
   gap: 2rem;
 }
+.duracion {
+  margin: 15px 0 0 0;
+}
 
 .card {
   background-color: #FFD700;
@@ -405,3 +408,182 @@ body {
   color: #ffffff;
 }
 
+/* GENERAL */
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .info-general {
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+
+  .picture1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .title-phrase {
+    font-size: 2.5rem;
+  }
+
+  .presentation,
+  .parrafo1 p {
+    font-size: 1.25rem;
+  }
+
+  .contac {
+    margin-left: 0;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .info-general .title1,
+  .info-general .sub-tittle,
+  .info-general .parrafo1,
+  .info-general .sub-tittle1,
+  .info-general .contac {
+    max-width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  .contenido h2 {
+  font-size: 5rem; 
+  font-weight: bold;
+  margin-bottom: 1.25rem; 
+}
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .logo {
+    width: 8rem;
+    height: auto;
+  }
+
+  .info {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .name {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .card {
+    width: 90%;
+    height: auto;
+  }
+
+  .contenido,
+  .imagen {
+    max-width: 100%;
+  }
+  .contenido h2 {
+  font-size: 2em; 
+  font-weight: bold;
+  margin-bottom: 0.25rem; 
+  }
+
+  .requisitos {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .carousel-container h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .carousel-item {
+    flex: 0 0 80%;
+  }
+
+  .contacto-contenedor {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .contacto-imagen img {
+    margin: 0 0 1.25rem 0;
+    width: 80%;
+  }
+
+  .contacto-info h2 {
+    font-size: 2rem;
+  }
+
+  .contacto-info p {
+    font-size: 1rem;
+  }
+
+  .whatsapp-btn img {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-phrase {
+    font-size: 1.75rem;
+  }
+
+  .presentation {
+    font-size: 1.25rem;
+  }
+
+  .parrafo1 p {
+    font-size: 1rem;
+  }
+
+  .contacto-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-item img {
+    width: 6rem;
+  }
+
+  .footer-phrase {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  .contenido h2 {
+  font-weight: bold;
+  margin-bottom: 0.5rem; 
+  }
+}
