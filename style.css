@@ -376,8 +376,8 @@ body {
 }
 /* 6e2b00 */
 .footer-creative {
-  background-color: #d98313; /* terracora mas claro*/
-  color: #111;
+  background-color: #000000; /* terracora mas claro*/
+  color: #ffffff;
   text-align: center;
   padding: 2rem 1rem 1rem;
   font-family: sans-serif;
@@ -402,6 +402,6 @@ body {
 .footer-bottom {
   margin-top: 1.5rem;
   font-size: 0.9rem;
-  color: #333;
+  color: #ffffff;
 }
 
